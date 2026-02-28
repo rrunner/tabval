@@ -1,0 +1,10 @@
+date,some_int,future_date,past_date,amount,float_pos_amount,constr_int,status,payed_amount
+"2001-12-03","23",,,1001,100.2,12,Approved,100
+"march 10, 2012",,,,,0.11,12,Declined,0
+"not a date","0.01",,,"magic number",0.23,12,Cancelled,0
+"2023-11-02",0.01,,,"no number",9229.0,12,Pending,0
+,,,,341,292.12,14,Approved,50
+"1971-01-09",,,,342,0.001,16,Cancelled,0
+"2030-01-02",,,,"93",0.22,18,Pending,0
+"2011-04-06",None,"2099-12-03","2098-10-01",922.22,12.1,16,Declined,10
+"2011-01-02","  ","2101-10-05","1921-05-21",874.23,-65.0,15,Started,0
