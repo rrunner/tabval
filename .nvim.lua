@@ -1,5 +1,4 @@
 -- project specific configuration template
-local utils = require("config.utils")
 
 -- formatting
 local exists_conform, conform = pcall(require, "conform")
@@ -39,7 +38,7 @@ if exists_dap then
       subProcess = false,
       cwd = "${workspaceFolder}",
       pythonPath = function()
-        return utils.get_python_path()
+        return Config.utils.get_python_path()
       end,
       stopOnEntry = false,
     },
